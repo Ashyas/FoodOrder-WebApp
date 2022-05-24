@@ -1,0 +1,12 @@
+C:\Users\Ash\source\repos\MySolution\Models\bin\Debug\net6.0\Models.deps.json
+C:\Users\Ash\source\repos\MySolution\Models\bin\Debug\net6.0\Models.dll
+C:\Users\Ash\source\repos\MySolution\Models\bin\Debug\net6.0\Models.pdb
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\Models.AssemblyInfo.cs
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\Models.dll
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\refint\Models.dll
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\Models.pdb
+C:\Users\Ash\source\repos\MySolution\Models\obj\Debug\net6.0\ref\Models.dll
