@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ash\\source\\repos\\MySolution\\Utility\\Utility.csproj",
+      "projectUniqueName": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Utility\\Utility.csproj",
       "projectName": "Utility",
-      "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\Utility\\Utility.csproj",
+      "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Utility\\Utility.csproj",
       "packagesPath": "C:\\Users\\Ash\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\Utility\\obj\\",
+      "outputPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Utility\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

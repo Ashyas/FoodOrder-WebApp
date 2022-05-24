@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fTZoY2m5j8GDqmj9F2M0ZDGLDPUwIj7hE5d84iM3EPE1xPbpnKenAxo+zYbcqqB0M5Cxrnzp/9O8z21MtYI1FA==",
+  "dgSpecHash": "4aPgXm4rTSMxu/xKYVepruiXbXnFQmOZJFckowDnVEUxtxVbzl7jPoAX0y4GaQyKwaMwe+TCo5MtMmuXo+73Eg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\Models.csproj",
+  "projectFilePath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

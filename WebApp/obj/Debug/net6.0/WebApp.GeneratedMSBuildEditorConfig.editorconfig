@@ -8,73 +8,81 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\Ash\source\repos\MySolution\WebApp\
+build_property.ProjectDir = C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ash\source\repos\MySolution\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Admin/Categories/Create.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Admin/Categories/Delete.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Admin/Categories/Edit.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Admin/Categories/Index.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Admin/FoodTypes/Create.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/FoodTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRm9vZFR5cGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Admin/FoodTypes/Delete.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/FoodTypes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRm9vZFR5cGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Admin/FoodTypes/Edit.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/FoodTypes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRm9vZFR5cGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Admin/FoodTypes/Index.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/FoodTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRm9vZFR5cGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Error.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/MenuItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVudUl0ZW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Admin/MenuItems/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVudUl0ZW1zXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Index.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Privacy.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Shared/_Notification.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/_ViewImports.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/_ViewStart.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ash/source/repos/MySolution/WebApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/Ash/source/repos/MySolution/FoodOrder-WebApp/WebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1lnhnt7yf2

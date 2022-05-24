@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ash\\source\\repos\\MySolution\\WebApp\\WebApp.csproj": {}
+    "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ash\\source\\repos\\MySolution\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ash\\source\\repos\\MySolution\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Ash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\Models.csproj"
+              "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\Models.csproj": {
+    "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Ash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\Ash\\source\\repos\\MySolution\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ash\\source\\repos\\MySolution\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\WebApp\\WebApp.csproj",
+        "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\WebApp.csproj",
         "packagesPath": "C:\\Users\\Ash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -163,11 +163,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ash\\source\\repos\\MySolution\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\Models\\Models.csproj"
+              "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj"
               }
             }
           }

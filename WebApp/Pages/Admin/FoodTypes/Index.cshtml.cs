@@ -3,20 +3,22 @@ using DataAccess.Data;
 using Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using DataAccess.Repository.IRepository;
 
 namespace WebApp.Pages.Admin.FoodTypes
 {
     public class IndexModel : PageModel
     {
-        private readonly ApplicationDbContext _db;
+        private readonly IUnitOfWork _unitOfWork;
         public IEnumerable<FoodType> FoodTypes { get; set; }
-        public IndexModel(ApplicationDbContext db)
+        public IndexModel(IUnitOfWork unitOfWork)
         {
-                _db = db;
+            _unitOfWork = unitOfWork;
         }
+       
         public void OnGet()
         {
-            FoodTypes = _db.FoodType;
+            FoodTypes = _unitOfWork.FoodType.GetAll();
         }
     }
 }
