@@ -1,12 +1,7 @@
 ﻿using DataAccess.Data;
 using DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess.Repository
 {
@@ -17,6 +12,7 @@ namespace DataAccess.Repository
         public Repository(ApplicationDbContext db)
         {
             _db = db;
+            //_db.MenuItem.Include(x => x.FoodTypeId).Include(y => y.Category);
             this.dbSet = db.Set<T>();
         }
         public void Add(T entity)
@@ -24,9 +20,18 @@ namespace DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll( string? includeProperties=null)
         {
             IQueryable<T> query = dbSet;
+            if(includeProperties != null)
+            {
+                //abc,,xyz -> abc xyz
+                foreach (var property in includeProperties.Split(
+                    new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    //query = query.Include(property);
+                }
+            }
             return query.ToList();
         }
 
