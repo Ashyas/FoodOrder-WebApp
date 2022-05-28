@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jrgG2+EyX30wQvm2UABpHCdL04w2L1zw9YCkNG7gN84=",
+  "Hash": "3jLA2rF10Gic+zkH7euqwS/QXFqNxQeRxXkU+dWmKsI=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\wwwroot\\images\\menuItems\\dde023de-6f86-4b7f-88d2-3dd3202c240c.jpg",
+      "Identity": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\wwwroot\\images\\menuItems\\29dcdc56-2e8c-4006-b51f-112da2796791.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "images/menuItems/dde023de-6f86-4b7f-88d2-3dd3202c240c.jpg",
+      "RelativePath": "images/menuItems/29dcdc56-2e8c-4006-b51f-112da2796791.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\dde023de-6f86-4b7f-88d2-3dd3202c240c.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\29dcdc56-2e8c-4006-b51f-112da2796791.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\wwwroot\\images\\menuItems\\c8803e3a-839b-496d-b74f-a400d48a57d2.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/menuItems/c8803e3a-839b-496d-b74f-a400d48a57d2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\c8803e3a-839b-496d-b74f-a400d48a57d2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\wwwroot\\images\\menuItems\\f03d7ad5-9d96-424b-86e1-5559610e4969.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/menuItems/f03d7ad5-9d96-424b-86e1-5559610e4969.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\f03d7ad5-9d96-424b-86e1-5559610e4969.jpg"
     },
     {
       "Identity": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\WebApp\\wwwroot\\js\\menuItem.js",

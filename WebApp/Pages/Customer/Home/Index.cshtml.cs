@@ -18,7 +18,7 @@ namespace WebApp.Pages.Customer.Home
         public void OnGet()
         {
             MenuItemList = _unitOfWork.MenuItem.GetAll(includeProperties: "Category,FoodType");
-            CategoryList = _unitOfWork.Category.GetAll();
+            CategoryList = _unitOfWork.Category.GetAll(orderBy: x=>x.OrderBy(y=>y.DisplayOrder));
         }
     }
 }
