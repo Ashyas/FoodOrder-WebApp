@@ -26,6 +26,7 @@ namespace WebApp.Pages.Admin.MenuItems
         {
             if(id != null)
             {
+                //edit
                 MenuItem = _unitOfWork.MenuItem.GetFirstOrDefault(x => x.Id == id);
             }
             CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem()
@@ -47,26 +48,20 @@ namespace WebApp.Pages.Admin.MenuItems
             if (MenuItem.Id == 0)
             {
                 //create
-                try
-                {
-                    string fileName_new = Guid.NewGuid().ToString();
-                    var uploads = Path.Combine(webRootPath, @"images\menuItems");
-                    var extension = Path.GetExtension(files[0].FileName);
+                
+                string fileName_new = Guid.NewGuid().ToString();
+                var uploads = Path.Combine(webRootPath, @"images\menuItems");
+                var extension = Path.GetExtension(files[0].FileName);
 
-                    using (var fileStream = new FileStream(Path.Combine(uploads, fileName_new + extension), FileMode.Create))
-                    {
-                        files[0].CopyTo(fileStream);
-                    }
-                    MenuItem.Image = @"\images\menuItems\" + fileName_new + extension;
-                    _unitOfWork.MenuItem.Add(MenuItem);
-                    _unitOfWork.Save();
-                    TempData["success"] = "Category Updated Successfully";
-                }
-                catch (Exception ex)
+                using (var fileStream = new FileStream(Path.Combine(uploads, fileName_new + extension), FileMode.Create))
                 {
-
-                    ex.Message.ToString();
+                    files[0].CopyTo(fileStream);
                 }
+                MenuItem.Image = @"\images\menuItems\" + fileName_new + extension;
+                _unitOfWork.MenuItem.Add(MenuItem);
+                _unitOfWork.Save();
+                TempData["success"] = "Category Updated Successfully";
+               
                
             }
             else
@@ -102,7 +97,7 @@ namespace WebApp.Pages.Admin.MenuItems
                 _unitOfWork.Save();
             }
             
-            return RedirectToPage("Index");
+            return RedirectToPage("./Index");
         }
     }
 }

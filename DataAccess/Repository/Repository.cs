@@ -12,6 +12,7 @@ namespace DataAccess.Repository
         public Repository(ApplicationDbContext db)
         {
             _db = db;
+            //in case of using regular DbContext
             //_db.MenuItem.Include(x => x.FoodTypeId).Include(y => y.Category);
             this.dbSet = db.Set<T>();
         }
@@ -23,13 +24,14 @@ namespace DataAccess.Repository
         public IEnumerable<T> GetAll( string? includeProperties=null)
         {
             IQueryable<T> query = dbSet;
+           
             if(includeProperties != null)
             {
                 //abc,,xyz -> abc xyz
                 foreach (var property in includeProperties.Split(
                     new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    //query = query.Include(property);
+                    query = query.Include(property);
                 }
             }
             return query.ToList();

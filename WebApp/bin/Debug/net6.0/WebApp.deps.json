@@ -12,8 +12,8 @@
           "Microsoft.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.5",
-          "Microsoft.jQuery.Unobtrusive.Ajax": "3.2.6",
           "Models": "1.0.0",
+          "jQuery": "3.6.0",
           "jquery.datatables": "1.10.15"
         },
         "runtime": {
@@ -28,10 +28,10 @@
           }
         }
       },
-      "jQuery/1.8.0": {},
+      "jQuery/3.6.0": {},
       "jquery.datatables/1.10.15": {
         "dependencies": {
-          "jQuery": "1.8.0"
+          "jQuery": "3.6.0"
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -275,11 +275,6 @@
             "assemblyVersion": "6.8.0.0",
             "fileVersion": "6.8.0.11012"
           }
-        }
-      },
-      "Microsoft.jQuery.Unobtrusive.Ajax/3.2.6": {
-        "dependencies": {
-          "jQuery": "1.8.0"
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -658,12 +653,12 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-    "jQuery/1.8.0": {
+    "jQuery/3.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-laDFQRJrIRHT0Z0GVYklMt3bE0iu0MZFJwHwg21kt3SHb7Bj8TdNiM3K+ZdK1DzB8ZxKy8z7NkJvwMas+dmHBw==",
-      "path": "jquery/1.8.0",
-      "hashPath": "jquery.1.8.0.nupkg.sha512"
+      "sha512": "sha512-sSzCTDWn15waSMjDrP21jjgG1j1pwISLaKiVCClwU4XGAmuZt+FScLkdyRvh9ppoIxAW/tJtJBYei+3CAwFQ7g==",
+      "path": "jquery/3.6.0",
+      "hashPath": "jquery.3.6.0.nupkg.sha512"
     },
     "jquery.datatables/1.10.15": {
       "type": "package",
@@ -846,13 +841,6 @@
       "sha512": "sha512-gTqzsGcmD13HgtNePPcuVHZ/NXWmyV+InJgalW/FhWpII1D7V1k0obIseGlWMeA4G+tZfeGMfXr0klnWbMR/mQ==",
       "path": "microsoft.identitymodel.tokens/6.8.0",
       "hashPath": "microsoft.identitymodel.tokens.6.8.0.nupkg.sha512"
-    },
-    "Microsoft.jQuery.Unobtrusive.Ajax/3.2.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-udg7ZBszgqxloQ+ShJRONKQAzPnJIlUhKZB+AIvZdKh7CDc5Nms69T9X0hN5i+NqMmQE6njkzdCcEb16lPdJTw==",
-      "path": "microsoft.jquery.unobtrusive.ajax/3.2.6",
-      "hashPath": "microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

@@ -206,9 +206,9 @@
               "target": "Package",
               "version": "[6.0.5, )"
             },
-            "Microsoft.jQuery.Unobtrusive.Ajax": {
+            "jQuery": {
               "target": "Package",
-              "version": "[3.2.6, )"
+              "version": "[3.6.0, )"
             },
             "jquery.datatables": {
               "target": "Package",

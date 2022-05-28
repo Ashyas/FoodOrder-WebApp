@@ -1,27 +1,27 @@
 ﻿
-var = dataTable;
+var dataTable;
 
 $(document).ready(function () {
-    dataTable = $('#DT_load').DataTable({
+    dataTable = $('#dt_load').DataTable({
         "ajax": {
-            "url": "/api/menuitem",
+            "url":"https://localhost:44334/api/menuitem/",
             "type":"GET",
             "datatype":"json"
         },
         "columns": [
             { "data": "name", "width": "25%" },
-            { "data": "price", "width": "20%" },
-            { "data": "category.name", "width": "20%" },
-            { "data": "foodType.name", "width": "20%" },
+            { "data": "price", "width": "15%" },
+            { "data": "category.name", "width": "15%" },
+            { "data": "foodType.name", "width": "15%" },
             {
                 "data": "id",
                 "render": function (data) {
-                    return `<div>
+                    return `<div class="w-75 btn-group">
                                 <a href="/Admin/MenuItems/Upsert?id=${data}"
                                     class="btn btn-primary mx-2">
                                     <i class="bi bi-pencil-fill"></i>
-                                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                <a onClick=Delete('/api/MenuItem'+${data})
+                                </a>
+                                <a onClick=Delete('/api/menuitem/'+${data})
                                     class="btn btn-danger mx-2">
                                     <i class="bi bi-trash3-fill"></i>
                                 </a>
@@ -46,9 +46,9 @@ function Delete(url) {
         confirmButtonText: 'Yes, delete it!'
     }).then((result) => {
         if (result.isConfirmed) {
-            ajax({
+            $.ajax({
                 url: url,
-                type: "DELETE",
+                type: 'DELETE',
                 success: function (data) {
                     if (data.success) {
                         dataTable.ajax.reload();
