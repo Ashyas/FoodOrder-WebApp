@@ -14,7 +14,7 @@ namespace WebApp.Pages.Customer.Home
             _unitOfWork = unitOfWork;
         }
         public MenuItem MenuItem { get; set; }   
-        [Range(1,100, ErrorMessage = "Please select up to 100 items!")]
+        [Range(1,100, ErrorMessage = "Please select items between 1 to 100!")]
         public int Count { get; set; }
         public void OnGet(int id)
         {
