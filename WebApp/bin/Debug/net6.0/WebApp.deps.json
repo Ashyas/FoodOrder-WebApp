@@ -17,6 +17,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.5",
           "Models": "1.0.0",
           "Swashbuckle.AspNetCore": "6.3.0",
+          "Utility": "1.0.0",
           "jQuery": "3.6.0",
           "jquery.datatables": "1.10.15"
         },
@@ -2385,8 +2386,19 @@
         }
       },
       "Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "6.0.5"
+        },
         "runtime": {
           "Models.dll": {}
+        }
+      },
+      "Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.5"
+        },
+        "runtime": {
+          "Utility.dll": {}
         }
       }
     }
@@ -3719,6 +3731,11 @@
       "sha512": ""
     },
     "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

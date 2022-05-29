@@ -3284,11 +3284,27 @@
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "6.0.5"
+        },
         "compile": {
           "bin/placeholder/Models.dll": {}
         },
         "runtime": {
           "bin/placeholder/Models.dll": {}
+        }
+      },
+      "Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utility.dll": {}
         }
       }
     }
@@ -10358,6 +10374,11 @@
       "type": "project",
       "path": "../Models/Models.csproj",
       "msbuildProject": "../Models/Models.csproj"
+    },
+    "Utility/1.0.0": {
+      "type": "project",
+      "path": "../Utility/Utility.csproj",
+      "msbuildProject": "../Utility/Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10371,6 +10392,7 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.5",
       "Models >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.3.0",
+      "Utility >= 1.0.0",
       "jQuery >= 3.6.0",
       "jquery.datatables >= 1.10.15"
     ]
@@ -10411,6 +10433,9 @@
             },
             "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj": {
               "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj"
+            },
+            "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Utility\\Utility.csproj": {
+              "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Utility\\Utility.csproj"
             }
           }
         }
