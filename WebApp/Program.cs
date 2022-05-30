@@ -24,9 +24,9 @@ builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/Areas/Identity/Pages/Account/Login";
-    options.LogoutPath = "/Areas/Identity/Pages/Account/Loguot";
-    options.AccessDeniedPath = "/Areas/Identity/Pages/Account/AccessDenied";
+    options.LoginPath = "/Identity/Account/Login";
+    options.LogoutPath = "/Identity/Account/Loguot";
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
 });
 var app = builder.Build();
 
