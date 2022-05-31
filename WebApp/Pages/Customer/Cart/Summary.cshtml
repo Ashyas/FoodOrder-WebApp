@@ -13,7 +13,7 @@
 							<h3 class="text-white">Order Summary</h3>
 						</div>
 						<div class="col-6 text-end">
-							<a class="btn btn-outline-secondary btn-sm">Back to Cart</a>
+							<a asp-page="Index" class="btn btn-outline-secondary btn-sm">Back to Cart</a>
 						</div>
 					</div>
 				</div>
@@ -31,7 +31,8 @@
 										<label>Name</label>
 									</div>
 									<div class="col-9">
-										<input class="form-control" />
+										<input asp-for="OrderHeader.PickupName" class="form-control" />
+										<span asp-validation-for="OrderHeader.PickupName" class="text-danger"></span>
 									</div>
 								</div>
 								<div class="row my-1">
@@ -39,7 +40,8 @@
 										<label>Phone Number</label>
 									</div>
 									<div class="col-9">
-										<input class="form-control" />
+										<input asp-for="OrderHeader.PhoneNumber" class="form-control" />
+										<span asp-validation-for="OrderHeader.PhoneNumber" class="text-danger"></span>
 									</div>
 								</div>
 								<div class="row my-1">
@@ -47,7 +49,8 @@
 										<label>Pickup Date</label>
 									</div>
 									<div class="col-9">
-										<input type="date" class="form-control" />
+										<input value="" asp-for="OrderHeader.PickUpDate" type="date" class="form-control" />
+										<span asp-validation-for="OrderHeader.PickUpDate" class="text-danger"></span>
 									</div>
 								</div>
 								<div class="row my-1">
@@ -55,7 +58,8 @@
 										<label>Pickup Time</label>
 									</div>
 									<div class="col-9">
-										<input type="time" class="form-control" />
+										<input value="" asp-for="OrderHeader.PickUpTime" type="time" class="form-control" />
+										<span asp-validation-for="OrderHeader.PickUpTime" class="text-danger"></span>
 									</div>
 								</div>
 								<div class="row my-1">
@@ -63,7 +67,7 @@
 										<label>Additional Instructions: </label>
 									</div>
 									<div class="col-9">
-										<textarea style="height:100px;" class="form-control"></textarea>
+										<textarea asp-for="OrderHeader.Comments" style="height:100px;" class="form-control"></textarea>
 									</div>
 								</div>
 							</div>
@@ -73,16 +77,19 @@
 									<span class="text-info">Order Summary:</span>
 								</h4>
 								<ul class="list-group mb-3">
+									@foreach (var item in @Model.ShoppingCartList)
+									{
 									<li class="list-group-item d-flex justify-content-between">
 										<div>
-											<h6 class="my-0">Name</h6>
-											<small class="text-muted">Quantity: Count</small>
+											<h6 class="my-0">@item.MenuItem.Name</h6>
+											<small class="text-muted">Quantity: @item.Count</small>
 										</div>
-										<span class="text-muted">$Price * Count</span>
+										<span class="text-muted">₪@(item.MenuItem.Price * @item.Count)</span>
 									</li>
+									}
 									<li class="list-group-item d-flex justify-content-between bg-light">
-										<small class="text-info">Total (USD)</small>
-										<strong class="text-info">$</strong>
+										<small class="text-info">Total (ILS)</small>
+										<strong class="text-info">₪@Model.OrderHeader.OrderTotal</strong>
 									</li>
 								</ul>
 							</div>
@@ -92,7 +99,7 @@
 				<div class="card-footer">
 					<div class="row">
 						<div class="col-12 col-md-4 offset-md-8">
-							<button type="submit" id="btnPlaceOrder" value="Place Order" class="btn btn-success form-control">Place Order</button>
+							<button type="submit" id="btnPlaceOrder" value="Place Order" class="btn btn-success form-control">Submit Order</button>
 						</div>
 					</div>
 				</div>
@@ -100,3 +107,9 @@
 		</div>
 	</div>
 </form>
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}

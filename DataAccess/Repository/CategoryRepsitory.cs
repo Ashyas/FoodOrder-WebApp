@@ -15,13 +15,8 @@ namespace DataAccess.Repository
         public CategoryRepsitory(ApplicationDbContext db) : base(db)
         {
             _db = db;
-
         }
-        public void Save()
-        {
-            _db.SaveChanges();
-        }
-
+        
         public void Update(Category category)
         {
             var objFromDb = _db.Category.FirstOrDefault (c => c.Id == category.Id); ;

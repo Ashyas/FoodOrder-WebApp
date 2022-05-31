@@ -16,8 +16,8 @@ namespace DataAccess.Repository
         public MenuItemRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
-
         }
+
         public void Update(MenuItem obj)
         {
             var objFromDb = _db.MenuItem.FirstOrDefault (c => c.Id == obj.Id); ;
@@ -26,6 +26,7 @@ namespace DataAccess.Repository
             objFromDb.Price = obj.Price;
             objFromDb.CategoryId = obj.CategoryId;
             objFromDb.FoodTypeId = obj.FoodTypeId;
+
             if(objFromDb.Image != null)
             {
                 objFromDb.Image = obj.Image;

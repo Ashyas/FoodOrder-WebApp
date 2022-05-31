@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repository.IRepository
 {
-    public interface IFoodTypeRepository : IRepository<FoodType>
+    public interface IApplicationUserRepository : IRepository<ApplicationUser>
     {
-        void Update(FoodType obj);
+        
     }
 }

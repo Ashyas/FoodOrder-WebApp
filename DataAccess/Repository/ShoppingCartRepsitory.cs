@@ -15,7 +15,6 @@ namespace DataAccess.Repository
         public ShoppingCartRepsitory(ApplicationDbContext db) : base(db)
         {
             _db = db;
-
         }
 
         public int DecrementCount(ShoppingCart shoppingCart, int count)
