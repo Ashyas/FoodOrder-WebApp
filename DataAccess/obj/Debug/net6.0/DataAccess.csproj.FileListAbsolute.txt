@@ -14,6 +14,7 @@ C:\Users\Ash\source\repos\MySolution\DataAccess\obj\Debug\net6.0\refint\DataAcce
 C:\Users\Ash\source\repos\MySolution\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\Users\Ash\source\repos\MySolution\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\bin\Debug\net6.0\DataAccess.dll
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\bin\Debug\net6.0\Models.dll
@@ -27,6 +28,5 @@ C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\obj\Debug\net6.
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\obj\Debug\net6.0\DataAccess.dll
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\obj\Debug\net6.0\DataAccess.pdb
-C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
-C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
