@@ -17,10 +17,18 @@ namespace DataAccess.Repository
             _db = db;
 
         }
-
         public void Update(OrderHeader obj)
         {
             _db.OrderHeader.Update(obj);
+        }
+
+        public void UpdateStatus(int id, string status)
+        {
+            var orderFromDb = _db.OrderHeader.FirstOrDefault(u => u.Id == id);
+            if (orderFromDb != null)
+            {
+                orderFromDb.Status = status;
+            }
         }
     }
 }
