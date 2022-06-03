@@ -21,5 +21,7 @@ namespace Utility
         public const string StatusCompleted = "Completed";
         public const string StatusCancelled = "Cancelled";
         public const string StatusRefunded = "Refunded";
+        public const string SessionCart = "SessionCart";
+
     }
 }

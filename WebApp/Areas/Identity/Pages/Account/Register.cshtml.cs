@@ -178,6 +178,11 @@ namespace WebApp.Areas.Identity.Pages.Account
                     }
                     else
                     {
+                        if (User.IsInRole(StaticDetail.ManagerRole))
+                        {
+                            TempData["success"] = "Employee registered successfully";
+                            return RedirectToPage("/Customer/Home/Index");
+                        }
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         return LocalRedirect(returnUrl);
                     }

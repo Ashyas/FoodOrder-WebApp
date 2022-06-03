@@ -4,8 +4,11 @@
 @{
     ViewData["Title"] = "Register";
 }
-
-<h1>@ViewData["Title"]</h1>
+@if (User.IsInRole(StaticDetail.ManagerRole))
+{
+    <h1>Register Employee</h1>
+}
+else{<h1>@ViewData["Title"]</h1>}
 
 <div class="row">
     <div class="col-md-4">
@@ -43,15 +46,18 @@
                 <label asp-for="Input.ConfirmPassword"></label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
-            <div class="form-floating my-2">
-                <input type="radio" name="rdUserRole" value="@StaticDetail.ManagerRole" />@StaticDetail.ManagerRole
-                <input type="radio" name="rdUserRole" value="@StaticDetail.KitchenRole" />@StaticDetail.KitchenRole
-                <input type="radio" name="rdUserRole" value="@StaticDetail.FrontDeskRole" />@StaticDetail.FrontDeskRole
-
-            </div>
-            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+            @if (User.IsInRole(StaticDetail.ManagerRole))
+            {
+                <div class="form-floating my-2">
+                    <input type="radio" name="rdUserRole" value="@StaticDetail.ManagerRole" />@StaticDetail.ManagerRole
+                    <input type="radio" name="rdUserRole" value="@StaticDetail.KitchenRole" />@StaticDetail.KitchenRole
+                    <input type="radio" name="rdUserRole" value="@StaticDetail.FrontDeskRole" />@StaticDetail.FrontDeskRole
+                </div>
+            }
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-primary">Register</button>
         </form>
     </div>
+    @if(!User.IsInRole(StaticDetail.ManagerRole)){
     <div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to register.</h3>
@@ -82,6 +88,7 @@
             }
         </section>
     </div>
+    }
 </div>
 
 @section Scripts {

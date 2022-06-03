@@ -347,3 +347,7 @@ C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\obj\Debug\net6.0\re
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\obj\Debug\net6.0\WebApp.pdb
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\obj\Debug\net6.0\WebApp.genruntimeconfig.cache
 C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\obj\Debug\net6.0\ref\WebApp.dll
+C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\bin\Debug\net6.0\MailKit.dll
+C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Ash\source\repos\MySolution\FoodOrder-WebApp\WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
