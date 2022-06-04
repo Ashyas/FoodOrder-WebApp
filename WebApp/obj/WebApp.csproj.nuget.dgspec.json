@@ -33,6 +33,9 @@
             "projectReferences": {
               "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj": {
                 "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Models\\Models.csproj"
+              },
+              "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Users\\Ash\\source\\repos\\MySolution\\FoodOrder-WebApp\\Utility\\Utility.csproj"
               }
             }
           }

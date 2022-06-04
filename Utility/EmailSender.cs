@@ -19,21 +19,31 @@ namespace Utility
 
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            var emailToSend = new MimeMessage();
-            emailToSend.From.Add(MailboxAddress.Parse("ash.app.test274@gmail.com"));
-            emailToSend.To.Add(MailboxAddress.Parse(email));
-            emailToSend.Subject = subject;
-            emailToSend.Body = new TextPart(MimeKit.Text.TextFormat.Html) { Text = htmlMessage };
-
-            //sending email
-           
-            using (var emailClient = new SmtpClient())
+            try
             {
-                emailClient.Connect("smtp.gmail.com",587, MailKit.Security.SecureSocketOptions.StartTls);
-                emailClient.Authenticate("ash.app.test274@gmail.com", "!t$@tes7AccountDn7try");
-                emailClient.Send(emailToSend);
-                emailClient.Disconnect(true);
-            };
+                var emailToSend = new MimeMessage();
+                emailToSend.From.Add(MailboxAddress.Parse("ash.app.test274@gmail.com"));
+                emailToSend.To.Add(MailboxAddress.Parse(email));
+                emailToSend.Subject = subject;
+                emailToSend.Body = new TextPart(MimeKit.Text.TextFormat.Html) { Text = htmlMessage };
+
+                //sending confirmation email
+
+                using (var emailClient = new SmtpClient())
+                {
+                    emailClient.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
+                    emailClient.Authenticate("ash.app.test274@gmail.com", "!t$@tes7AccountDn7try");
+                    emailClient.Send(emailToSend);
+                    emailClient.Disconnect(true);
+                };
+            }
+            catch (Exception) 
+            {
+                //confirmation email was not sent by gmail.com
+                return Task.CompletedTask;
+                
+            }
+            
             return Task.CompletedTask;
         }
     }
