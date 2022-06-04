@@ -45,8 +45,8 @@ namespace DataAccess.DbInitializer
                         UserName = "ash.app.test274@gmail.com",
                         Email = "ash.app.test274@gmail.com",
                         EmailConfirmed = true,
-                        FirstName = "Asher",
-                        LastName = "Yasia"
+                        FirstName = "AdminName",
+                        LastName = "AdminLastName"
                     }, "Admin1234*").GetAwaiter().GetResult();
 
                     ApplicationUser user = _db.ApplicationUser.FirstOrDefault(u => u.Email == "ash.app.test274@gmail.com");
