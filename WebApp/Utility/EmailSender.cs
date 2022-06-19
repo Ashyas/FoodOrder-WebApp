@@ -22,7 +22,7 @@ namespace Utility
             try
             {
                 var emailToSend = new MimeMessage();
-                emailToSend.From.Add(MailboxAddress.Parse("app.test274@gmail.com"));
+                emailToSend.From.Add(MailboxAddress.Parse("ash.app.test274@gmail.com"));
                 emailToSend.To.Add(MailboxAddress.Parse(email));
                 emailToSend.Subject = subject;
                 emailToSend.Body = new TextPart(MimeKit.Text.TextFormat.Html) { Text = htmlMessage };
@@ -32,7 +32,7 @@ namespace Utility
                 using (var emailClient = new SmtpClient())
                 {
                     emailClient.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
-                    emailClient.Authenticate("app.test274@gmail.com", "!t$@tes7AccountDn7try");
+                    emailClient.Authenticate("ash.app.test274@gmail.com", "!t$@tes7AccountDn7try");
                     emailClient.Send(emailToSend);
                     emailClient.Disconnect(true);
                 };
