@@ -47,7 +47,7 @@ namespace DataAccess.DbInitializer
                         EmailConfirmed = true,
                         FirstName = "AdminName",
                         LastName = "AdminLastName"
-                    }, "Admin1234*").GetAwaiter().GetResult();
+                    }, "Admin123*").GetAwaiter().GetResult();
 
                     ApplicationUser user = _db.ApplicationUser.FirstOrDefault(u => u.Email == "ash.app.test274@gmail.com");
                     if (user != null)
